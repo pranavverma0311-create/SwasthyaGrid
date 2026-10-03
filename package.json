@@ -1,0 +1,23 @@
+{
+  "name": "swasthyagrid-root",
+  "version": "1.0.0",
+  "description": "Connecting Health Signals. Enabling Faster Response. Intelligent Community Health Signal Monitoring & Response Platform by Team INNVOX.",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "health-signals",
+    "public-health",
+    "epidemiology",
+    "decision-support",
+    "early-warning-system",
+    "swasthyagrid",
+    "innvox"
+  ],
+  "author": "INNVOX",
+  "license": "MIT"
+}
